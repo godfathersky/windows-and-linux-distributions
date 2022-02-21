@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Robert Zima">
+        <meta name="description" content="Strona o dystrybucjach systemów operacyjnych.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dystrybucje systemów operacyjnych</title>
+
+        <!--CSS styles-->
+        <link rel="stylesheet" type="text/css" href="./styles/style.css">
+        <!--JQuery script-->
+        <script src="./jquery.js"></script>
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a class="nav-item" href="#ubuntu">Ubuntu</a></li>
+                <li><a class="nav-item" href="#debian">Debian</a></li>
+                <li><a class="nav-item" href="#windows-11">Windows 11</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Dystrybucje systemów operacyjnych Linux/Windows</h1>
+        </header>
+        <main>
+            <button onclick="back_to_top()" id="bck_btn" title="Wróc na górę strony">Top</button>
+            <article>
+                <section id="ubuntu">
+                    <div class="logo">
+                        <img src="./styles/graphic/ubuntu-logo-set-web-svg/SVG_small_use/ubuntu_black-orange_hex_su.svg" alt="ubuntu_black-orange_hex_su" class="ubuntu-logo">
+                    </div>
+                    <div class="info">
+                        <h4>Opis</h4>
+                        <p>Kompletna dystrybucja systemu operacyjnego GNU/Linux, przeznaczona głównie do zastosowań biurowych i domowych (ang. desktop). Powstała również wersja serwerowa oraz na netbooki. Rozwój tej ostatniej zakończył się w 2011 roku, gdyż zdecydowano o połączeniu wydań dla komputerów biurowych i domowych z wersją dla netbooków, jednocześnie dodając nową powłokę graficzną – Unity – będącą nakładką na popularnego GNOME.
+                        Ubuntu opiera się na dystrybucji Debian (w wersji Sid) i jest rozwijane na serwisie Launchpad. Projekt sponsorowany jest przez przedsiębiorstwo Marka Shuttlewortha Canonical Ltd. oraz Ubuntu Foundation. Według sondaży online w 2012 Ubuntu był najpopularniejszą dystrybucją GNU/Linuksa na komputerach osobistych. Jednak Ubuntu jest również popularne na serwerach i w chmurze. Ubuntu wydawane jest w regularnych, sześciomiesięcznych odstępach czasowych.
+                        Słowo ubuntu pochodzi z języków ludów Zulu i Xhosa zamieszkujących południową Afrykę i oznacza „człowieczeństwo wobec innych”. Głównym celem dystrybucji jest dostarczenie użytkownikom domowym kompletnego, otwartego systemu, który będzie łatwy w obsłudze oraz jednocześnie stabilny, niezawodny i nowoczesny.
+                        Oprócz Ubuntu korzystającego ze środowiska GNOME z nakładką Unity istnieje kilka wariantów innych dystrybucji, które różnią się wykorzystywanym środowiskiem graficznym oraz podstawowym zestawem pakietów. Do najpopularniejszych z nich należą Kubuntu (korzysta ze środowiska KDE), Xubuntu (korzysta ze środowiska Xfce). Istnieją także: Lubuntu (środowisko LXDE (W starszych wersjach.) LXQT (W nowszych wersjach.) i Fluxbuntu (Fluxbox). Xubuntu, Lubuntu i Fluxbuntu to lżejsze pod względem zużycia zasobów sprzętowych alternatywy dla Ubuntu i Kubuntu.</p>
+                        <h4>Cechy dystrybucji</h4>
+                        <ul>
+                            <li>Ustawienia domyślne i wykrywanie sprzętu – instalacja i konfiguracja sprzętu odbywa się bez konieczności podejmowania działań ze strony użytkownika.</li>
+                            <li>Uproszczona administracja – uzyskana dzięki graficznym konfiguratorom, systemowi zarządzania oprogramowaniem apt-get oraz szerokiemu wykorzystaniu mechanizmu sudo (podobnie jak ma to miejsce w Mac OS X).</li>
+                            <li>Ubuntu domyślnie jest oparte na środowisku graficznym GNOME, natomiast od 11.04 oraz 10.10 Netbook Edition – dodatkowo powłoce Unity.</li>
+                            <li>Wsparcie dla osób niepełnosprawnych, internacjonalizacja (tłumaczenie) wszystkich komponentów dystrybucji.</li>
+                            <li>Centrum Oprogramowania Ubuntu – aplikacja domyślnie instalowana w systemie służąca do prostej instalacji programów.</li>
+                            <li>Wsparcie techniczne – Canonical za odpowiednią opłatą zapewnia 18-miesięczny okres wsparcia dla każdego z wydań (wydania LTS – ang. Long Time Support – wsparcie długoterminowe do 5 lat wsparcia dla poprawek bezpieczeństwa dla serwerów oraz dla instalacji biurowych).</li>
+                        </ul>
+                        <h4>Wymagania sprzętowe</h4>
+                        <p>Wymagania systemowe różnią się między różnymi wersjami Ubuntu. Dla głównej dystrybucji Ubuntu (w wersji 18.04) zalecane jest:</p>
+                        <ul>
+                            <li>Procesor 2 GHz dual core lub lepszy</li>
+                            <li>2 GB RAM</li>
+                            <li>25 GB wolnego miejsca</li>
+                            <li>Port USB lub odtwarzacz DVD</li>
+                        </ul>
+                        <p>Dla wolniejszych komputerów przeznaczane są inne wersje, jak Lubuntu czy Xubuntu.</p>
+                        <h4 style="margin-bottom: 0.3rem;">Źródła informacji i grafik:</h4>
+                        <a href="https://pl.wikipedia.org/wiki/Ubuntu">https://pl.wikipedia.org/wiki/Ubuntu</a><br>
+                        <a href="https://design.ubuntu.com/downloads/">https://design.ubuntu.com/downloads/</a>
+                    </div>
+                </section>
+                <section id="debian">
+                    <div class="logo"><img src="./styles/graphic/debian-logo/debian_logo.svg" alt="debian_logo" class="debian-logo"></div>
+                    <div class="info">
+                        <h4>Opis</h4>
+                        <p>projekt wolnej dystrybucji systemu operacyjnego GNU/Linux oraz GNU/kFreeBSD realizowany przez ochotników na całym świecie. Wewnątrz Debiana istnieją również projekty, mające na celu stworzenie dystrybucji systemu GNU/Hurd, inne odmiany BSD, a nawet dystrybucji wolnego oprogramowania na platformę Windows.
+                        Debian cieszy się opinią stabilnego systemu o wysokiej jakości i łatwego do aktualizacji. Ze względu na dbałość o jakość i bezpieczeństwo dystrybucji, nowe wersje stabilne pojawiają się stosunkowo rzadko, często dochodzi też do opóźnień w ich wydawaniu.</p>
+                        <h4>Historia</h4>
+                        <p>Powstanie Debiana ogłosił 16 sierpnia 1993 r. na grupie comp.os.linux.development Ian Murdock, wówczas student uniwersytetu Purdue. Napisał on Manifest Debiana, w którym apelował o stworzenie otwartej dystrybucji w duchu Linuksa i GNU. Nazwa „Debian” jest zbitką imion Murdocka i jego dziewczyny (obecnie byłej żony) Debry. Dystrybucja ta została zbudowana na podstawie SLS. Wśród założeń Debiana było między innymi to, że będzie zawierał on najbardziej aktualne wersje oprogramowania.Początkowo projekt Debian rozwijał się wolno.<br>- W latach 1994–1995 powstały pierwsze wersje 0.9x.<br>- W sierpniu 1995 rozpoczęto prace nad adaptacją systemu na inne architektury.<br>- Wersja 1.x została wydana w 1996.<br>- Wiosną 1996 roku Bruce Perens zastąpił Iana Murdocka w roli koordynatora projektu. Zainicjował on stworzenie kilku ważnych dokumentów (umowy społecznej wraz z Wytycznymi Dotyczącymi Wolnego Oprogramowania) oraz instytucji prawnej (SPI).<br>- Perens odszedł ze stanowiska w 1998, tuż przed wydaniem Debiana 2.0 (pierwszego bazującego na glibc). Uczestnicy projektu wybrali nowego lidera – Iana Jacksona – i wydali jeszcze dwie wersje Debiana 2.x (Debian 2.1 wydany 9 marca 1999 oraz Debian 2.2 wydany 14 sierpnia 2000). W okresie tym został stworzony APT oraz rozpoczęto pracę nad projektem Debian GNU/Hurd – pierwszą adaptacją systemu na jądro nielinuksowe.<br>- 19 lipca 2002 zostaje wydany Debian 3.0 „Woody”. Działa już na 11 różnych architekturach sprzętowych (włączając w to dodane wtedy IA-64, PA-RISC, MIPS oraz S/390), posiada około 8500 pakietów, a w rozwój dystrybucji jest już zaangażowanych ponad 900 deweloperów.<br>- 6 czerwca 2005 roku Projekt wydaje Debiana 3.1 ‘Sarge’, który korzysta już z własnego instalatora (debian-installer).<br>- 8 kwietnia 2007 roku został wydany Debian GNU/Linux 4.0 o nazwie kodowej Etch. Do wydania dołączono wersję na architekturę AMD64, natomiast zrezygnowano z m68k (chociaż nadal była dostępna w gałęzi wersji niestabilnej).<br>- 26 lipca 2008 roku wydano kolejną aktualizacją stabilnej wersji Debian GNU/Linux 4.0r4. Pierwszy raz w historii projektu oprócz poprawek związanych z bezpieczeństwem, dokonano aktualizacji pakietów podstawowych systemu (ang. core packages) do wyższych wersji (m.in. jądro systemu oraz serwer grafiki X.Org) w celu wsparcia nowego sprzętu (m.in. karty graficzne, sieciowe). Dystrybucja ze zmienionymi pakietami podstawowymi otrzymała nazwę etch-and-a-half (etch-i-pół) odróżniając ją od stabilnej wersji bez tych aktualizacji.<br>- 27 lipca 2008 roku została zamrożona wersja testowa Debiana – Lenny, do czasu wydania stabilnej wersji.<br>- 14 lutego 2009 roku nowa wersja stabilna – Lenny została wydana. Wydanie cechuje się obsługą 12 architektur sprzętowych (nowa architektura armel), oraz 23000 gotowych do zainstalowania pakietów. Wydanie to zostało dedykowane Thiemo Seuferowi – aktywnemu członkowi zespołu (odpowiedzialnemu między innymi za wspieranie architektury MIPS), który 26 grudnia 2008 roku zginął w tragicznym wypadku samochodowym.<br>- 6 sierpnia 2010 roku została zamrożona wersja testowa Debiana – Squeeze, do czasu wydania stabilnej wersji.<br>- 6 lutego 2011 roku ukazało się kolejne stabilne wydanie – Squeeze. Nowa wersja posiada wsparcie dla 9 architektur sprzętowych (11 programowych) oraz ponad 36000 gotowych do zainstalowania pakietów. Po raz pierwszy oficjalnie pojawia się (jako technical preview) adaptacja na jądro FreeBSD z narzędziami GNU – GNU/kFreeBSD dla architektur x86 oraz AMD64.<br>- 4 maja 2013 roku została wydana nowa wersja stabilna Debiana 7.0 – Wheezy. W nowym wydaniu pojawiła się obsługa wielu architektur jednocześnie (tzw. multiarch), która pozwala na instalację pakietów z wielu architektur na tej samej jednostce, a także uruchamianie zarówno 32 i 64-bitowych programów, ze spełnianiem wszystkich zależności. Nowy Debian wprowadza również szereg rozwiązań prywatnej chmury obliczeniowej (między innymi Xen Cloud Platform oraz OpenStack), ulepszony instalator systemu oraz kompletny zestaw multimedialnych narzędzi i kodeków, bez potrzeby korzystania z zewnętrznych repozytoriów. W procesie instalacji wprowadzono ulepszenia pozwalające osobom niewidomym na instalację przy użyciu syntezatora mowy. Instalator został przetłumaczony na 73 języki, z czego ponad 12 posiada obsługę syntezatora mowy. Debian Wheezy obsługuje 64-bitowe komputery z UEFI, jednak na dzień wydania nowej wersji dystrybucji bez obsługi „Secure Boot”.<br>- 13 maja 2013, Lars Wirzenius i Russ Allbery zaproponowali zmiany dotyczące planu wydawniczego[2], którego głównym założeniem jest jego przyspieszenie.</p>
+                        <h4 style="margin-bottom: 0.3rem;">Źródła informacji i grafik:</h4>
+                        <a href="https://pl.wikipedia.org/wiki/Debian">https://pl.wikipedia.org/wiki/Debian</a><br>
+                        <a href="https://www.debian.org/logos/">https://www.debian.org/logos/</a>
+                    </div>
+                </section>
+                <section id="windows-11">
+                    <div class="logo"><img src="./styles/graphic/windows11-logo/windows11_logo.svg" alt="windows11_logo" class="windows11-logo"></div>
+                    <div class="info">
+                        <h4>Opis</h4>
+                        <p>Wersja systemu operacyjnego Microsoft Windows, zaprezentowana 24 czerwca 2021. Jest następcą Windowsa 10. Aktualizacja do Windowsa 11 jest darmowa dla posiadaczy wersji 10. Według wstępnych planów Microsoftu ma się rozpocząć na początku 2022 roku, chociaż jeszcze w 2021 w sklepach powinny się pojawić pierwsze komputery z preinstalowaną wersją 11. Windows 11 został wydany 5 października 2021 r.</p>
+                        <h4>Rozwój</h4>
+                        <p>Po wydaniu systemu Windows 10 pracownik Microsoftu Jerry Nixon oświadczył, że będzie to „ostatnia wersja systemu Windows”. Przedsiębiorstwo zgodziło się z tym stwierdzeniem, określając je jako „odzwierciedlające” jej pogląd na rozwój systemu. Windows 10 miał funkcjonować w charakterze usługi, a pierwotna jego wersja miała być ulepszana w ramach wydawanych od czasu do czasu aktualizacji i nowych kompilacji. Jednakże zamieszczenie przez przedsiębiorstwo oferty pracy odnoszącej się do „gruntownego odmłodzenia” systemu Windows przyniosło falę spekulacji na temat nowego wydania systemu. Pod kryptonimem „Sun Valley” rozpoczęto prace nad uaktualnieniem systemu, którego celem miało być unowocześnienie jego interfejsu. W połowie czerwca 2021 r. pojawiły się pierwsze zrzuty ekranu nowej wersji systemu, opublikowane na chińskiej stronie Baidu Tieba, a następnie wyciekła do internetu rzekoma wersja deweloperska Windows 11, wyposażona w zmodernizowany ekran pierwszej konfiguracji (Windows OOBE) oraz branding nowego systemu, a pod względem wizualnym przypominająca wcześniejszy projekt Windows 10X.
+                        Pierwotne informacje o możliwości wydania nowej wersji systemu Windows pojawiły się po tym, jak Microsoft opublikował zaproszenie na konferencję, związaną z przyszłością systemu (w materiałach pojawiła się godzina 11:00 czasu wschodniego), a także z uwagi na wcześniejsze wstrzymanie nowych kompilacji w ramach programu Windows Insider. Ponadto przedsiębiorstwo zamieściło w serwisie YouTube wideo z montażem dźwięków ze starszych wersji systemu Windows, trwające dokładnie 11 minut.
+                        Zgodnie ze wcześniejszymi przewidywaniami system Windows 11 został zaprezentowany na konferencji Microsoftu, która odbyła się 24 czerwca 2021. Pierwsza kompilacja systemu została wydana 28 czerwca w ramach programu Windows Insider.
+                        Przed oficjalną prezentacją systemu, w internecie pojawiły się poszlaki wskazujące na możliwość bezpłatnej aktualizacji Windowsa 7 oraz 8.1 do wersji 11, które nie zostały ani potwierdzone, ani zdementowane podczas konferencji Microsoftu.</p>
+                        <h4 style="margin-bottom: 0.3rem;">Źródła informacji i grafik:</h4>
+                        <a href="https://pl.wikipedia.org/wiki/Windows_11">https://pl.wikipedia.org/wiki/Windows_11</a><br>
+                        <a href="https://pl.wikipedia.org/wiki/Plik:Windows_11_logo.svg">https://pl.wikipedia.org/wiki/Plik:Windows_11_logo.svg</a>
+                    </div>
+                </section>
+            </article> 
+        </main>
+        <footer>
+            <p>&copy; 2021, Created by Robert Zima</p>
+        </footer>
+    </body>
+</html>
